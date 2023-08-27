@@ -1,0 +1,35 @@
+html,
+body {
+  color: var(--black);
+  background: var(--white);
+  font-family: "Noto Sans", sans-serif;
+  background-image: url("../media/background.jpg");
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #dbedef;
+  --light: #a2e6e9;
+  --grey: #2a3942;
+  --green: #005c4b;
+  --black: #08506f;
+}
+
+@media screen and (max-width: 1440px) {
+  html,
+  body {
+    padding: 0;
+  }
+}

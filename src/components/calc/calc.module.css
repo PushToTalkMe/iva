@@ -1,0 +1,12 @@
+.calc {
+  background-color: var(--white);
+  border: 2px solid var(--black);
+  border-radius: 20px;
+  width: 65%;
+}
+
+@media screen and (max-width: 800px) {
+  .calc {
+    width: 80%;
+  }
+}

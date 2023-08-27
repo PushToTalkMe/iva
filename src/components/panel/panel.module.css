@@ -1,0 +1,23 @@
+.panel {
+  display: flex;
+  background-image: url("../../../media/background_panel.jpg");
+  height: 600px;
+  background-size: cover;
+  background-position: 90% 10%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ghost {
+  opacity: 0.6;
+  font-size: 22px;
+  padding: 25px;
+  color: var(--black);
+  border: 2px solid var(--black);
+  background-color: var(--light);
+}
+
+.ghost:hover {
+  opacity: 1;
+}

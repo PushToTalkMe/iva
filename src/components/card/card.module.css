@@ -1,0 +1,51 @@
+.card {
+  display: grid;
+  grid-template-rows: 30px auto 1fr;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  border: 10px solid var(--black);
+  border-radius: 10px;
+  height: 500px;
+  width: 300px;
+  margin: 10px;
+  background-color: var(--white);
+}
+
+.avatar {
+  border-radius: 10px;
+  width: 250px;
+  height: 300px;
+}
+
+@media screen and (max-width: 1400px) {
+  .card {
+    display: grid;
+    grid-template-rows: 30px auto 1fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    border: 5px solid var(--black);
+    border-radius: 10px;
+    height: 450px;
+    width: 180px;
+    margin: 10px;
+    background-color: var(--white);
+  }
+  .card h5 {
+    font-weight: 500;
+    font-size: 18px;
+    margin: 5px;
+  }
+  .card span {
+    font-weight: 500;
+    font-size: 12px;
+    margin: 5px;
+  }
+  .avatar {
+    width: 150px;
+    height: 200px;
+  }
+}
