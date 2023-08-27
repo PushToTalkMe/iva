@@ -9043,7 +9043,7 @@ const ye = tr(xp),
       ...l,
       children: [
         N.jsx(ur, { tag: "h5", children: t }),
-        N.jsx("img", { src: "./" + e, className: ys.avatar }),
+        N.jsx("img", { src: "/iva/assets/" + e, className: ys.avatar }),
         N.jsx(Qc, { children: n }),
       ],
     }),
